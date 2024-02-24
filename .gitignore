@@ -1,0 +1,32 @@
+# Ignore les fichiers de configuration de l'environnement
+.env
+
+# Ignore les modules Node.js installés
+/node_modules
+
+# Ignore les fichiers de dépendances
+package-lock.json
+npm-debug.log
+
+# Ignore les fichiers de sauvegarde
+*.bak
+*.backup
+*.log*
+
+# Ignore les fichiers de build ou de distribution
+/dist
+/build
+/out
+
+# Ignore les fichiers temporaires
+*.tmp
+
+# Ignore les fichiers cachés
+.DS_Store
+
+# Ignore les fichiers de configuration spécifiques à l'éditeur
+.vscode
+.idea
+
+# Ignore les fichiers de configuration spécifiques au système d'exploitation
+Thumbs.db
